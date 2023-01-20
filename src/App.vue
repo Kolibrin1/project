@@ -3,6 +3,7 @@
     import Functions from '@/components/Functions.vue';
     import Support from '@/components/Support.vue';
     import SupportWrapper from '@/components/SupportWrapper.vue';
+    import Plans from '@/components/Plans.vue';
     export default
     {
         name: 'App',
@@ -12,6 +13,7 @@
             Functions,
             Support,
             SupportWrapper,
+            Plans,
         },
     }
 </script>
@@ -21,6 +23,7 @@
     <Functions></Functions>
     <Support></Support>
     <SupportWrapper></SupportWrapper>
+    <Plans></Plans>
 </template>
 
 <style scoped>
