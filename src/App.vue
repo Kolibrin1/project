@@ -4,6 +4,7 @@
     import Support from '@/components/Support.vue';
     import SupportWrapper from '@/components/SupportWrapper.vue';
     import Plans from '@/components/Plans.vue';
+    import Cases from './components/Cases.vue';
     export default
     {
         name: 'App',
@@ -14,6 +15,7 @@
             Support,
             SupportWrapper,
             Plans,
+            Cases,
         },
     }
 </script>
@@ -24,6 +26,7 @@
     <Support></Support>
     <SupportWrapper></SupportWrapper>
     <Plans></Plans>
+    <Cases></Cases>
 </template>
 
 <style scoped>
