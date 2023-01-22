@@ -70,7 +70,7 @@
 <script>
     export default
     {
-        name: 'SupportWrapper'
+        name: 'Team'
     }
 </script>
 <style scoped>
