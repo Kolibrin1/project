@@ -1,6 +1,6 @@
 <template>
            <!-- СПИСОК ФУНКЦИЙ СЕРВИСА -->
-           <div class="functions o-container">
+        <div class="functions o-container">
         <div class="functions-title">
             <span>
                 13 лет совершенствуем компетенции в Drupal поддержке!
@@ -162,24 +162,24 @@
     width: 100%;
   }
 
-  .functions-item {
+  .f-icon {
     width: 100%;
     margin-right: 0px;
   }
 
-  .functions-item p {
+  .f-icon p {
     width: 135px;
     font-size: 13px;
     margin-top: 25px;
     margin-left: 20px;
   }
 
-  .functions-item img {
+  .f-icon img {
     margin: 0px auto;
     display: block;
   }
 
-  .functions-item::before {
+  .f-icon::before {
     left: 0;
     top: 8.76%;
     bottom: 54.64%;
@@ -189,6 +189,7 @@
     background: url(../assets/img/functions/icon-bg.svg) no-repeat;
     position: absolute;
   }
+ 
     
 }
 </style>
