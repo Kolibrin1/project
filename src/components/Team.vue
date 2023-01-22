@@ -126,6 +126,13 @@
 }
 @media screen and (max-width: 575px) {
       /* КОМАНДА */
+    .o-container {
+      width: 100%;
+    }
+  
+    .min-container {
+      width: 100%;
+    }
     
   .team {
     padding: 0px 15px;

@@ -140,6 +140,9 @@
     .functions {
     padding: 60px 15px;
   }
+  .o-container {
+      width: 100%;
+    }
 
   .functions-list {
     margin: 0;
